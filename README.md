@@ -15,3 +15,11 @@ This repository contains a basic example of a socket-based client-server applica
   - Connects to the server using a specified IP address and port.
   - Sends a greeting message to the server.
   - Closes the connection gracefully after communication.
+
+## New: Simple HTTP Server
+
+- **HTTP Server**:
+  - Listens on a specified IP and port.
+  - Serves HTML and CSS files from a designated `www` directory.
+  - Responds with a 404 error if the requested file is not found.
+  - Provides a basic example of how to create a minimal HTTP server using Java sockets.
